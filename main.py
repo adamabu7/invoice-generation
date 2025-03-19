@@ -1,6 +1,5 @@
 import pandas as pd
 import glob
-import openpyxl
 
 filepaths = glob.glob("invoices/*.xlsx")
 print(filepaths)
